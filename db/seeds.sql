@@ -1,10 +1,10 @@
-USE burgers;
+USE burgers_db;
 
 INSERT INTO burgers (burger_name)
-VALUES ("Bacon Cheese Burger");
+VALUES ("Bacon Cheese Burger", FALSE);
 
 INSERT INTO burgers (burger_name)
-VALUES ("Veggie Burger");
+VALUES ("Veggie Burger", FALSE);
 
 INSERT INTO burgers (burger_name)
-VALUES ("Turkey Burger");
+VALUES ("Turkey Burger", FALSE);
